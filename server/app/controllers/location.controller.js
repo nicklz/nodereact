@@ -11,7 +11,7 @@ exports.create = (req, res) => {
 
   // Create a Location
   const location = {
-    name: `Location - ${titleRandom}`,
+    name: `Location - ${nameRandom}`,
     startDate: baseDate + dateRandom,
     endDate: baseDate + (5 * dateRandom),
   };
